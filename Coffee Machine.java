@@ -6,6 +6,13 @@
 // the cost of Plain coffee is 2. Add one portion of milk/sugar will increase the cost by 0.5
 // Consider use decorator design pattern
 
+// input: 
+// 	pack(2, 3)
+// 	makeCoffee()
+// output:
+// 	Cost for this coffee is: 4.5
+// 	Ingredients for this coffee is: Plain Coffee, Milk, Milk, Sugar, Sugar, Sugar
+
 public class CoffeeMaker {
 
 	public Coffee makeCoffee(CoffeePack pack) {
